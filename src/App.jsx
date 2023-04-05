@@ -8,15 +8,15 @@ import i18next from 'i18next';
 import './i18n';
 import { ROUTES } from './constant/ROUTES';
 import store from './store';
-import Header from './components/Header';
 import Home from './pages/Home';
+import Profile from './pages/Profile';
 function App() {
   return (
     <Router>
-      <Header />
       <div className='wrapper'>
         <Routes>
           <Route exact path={ROUTES.HOME} element={<Home />} />
+          <Route exact path={ROUTES.PROFILE} element={<Profile />} />
           {/* <Route path='*' element={<NotFoundContainer />} /> */}
         </Routes>
       </div>

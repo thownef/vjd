@@ -1,5 +1,6 @@
 export const ROUTES = {
   HOME: '/',
+  PROFILE: '/profile',
   CARS: '/cars',
   CAR: '/car/:id/',
   CAR_ROOT: '/car',

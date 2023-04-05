@@ -1,0 +1,44 @@
+.benefit {
+  &__title {
+    margin: 0 auto 30px;
+    text-align: center;
+    color: #cf2030;
+    font-size: 30px;
+    line-height: 1;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 10px;
+    span {
+      color: #000;
+    }
+  }
+  &__card {
+    &--item {
+      width: 100%;
+      img {
+        height: 300px;
+        object-fit: fill;
+      }
+      h3 {
+        margin: 0;
+        color: #d03031;
+        font-size: 24px;
+        line-height: 1.25px;
+        letter-spacing: -0.02em;
+        font-weight: 700;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        span {
+          font-size: 20px;
+        }
+      }
+      p {
+        font-size: 20px;
+        line-height: 1.8em;
+        color: #3f3f3f;
+        text-align: left;
+        min-height: 144px;
+      }
+    }
+  }
+}

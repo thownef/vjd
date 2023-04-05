@@ -1,0 +1,9 @@
+.ant-modal-content {
+  border-radius: 14px !important;
+  padding: 0 !important;
+  overflow: hidden;
+}
+
+.ant-modal-footer {
+  display: none;
+}
