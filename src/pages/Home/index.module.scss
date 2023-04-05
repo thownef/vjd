@@ -1,10 +1,13 @@
 .backtop {
+  margin-left: 10px;
   :global {
-    .ant-float-btn {
+    .ant-back-top {
+      right: 44px;
+    }
+    .ant-back-top-content {
       background-color: #0c59db;
-
       &:hover {
-        background-color: white;
+        background-color: #0c59db;
       }
     }
     .ant-float-btn-body {
@@ -12,12 +15,6 @@
       background-color: #0c59db;
       svg {
         color: white;
-      }
-      &:hover {
-        background-color: white;
-        svg {
-          color: #0c59db;
-        }
       }
     }
   }
@@ -30,8 +27,8 @@
   animation: white-shadow 0.8s infinite, red-shadow 0.8s infinite;
   border-radius: 50%;
   position: fixed;
-  bottom: 48px;
-  right: 24px;
+  bottom: 50px;
+  right: 44px;
 }
 
 .hidden {
