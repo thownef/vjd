@@ -5,7 +5,7 @@ import Company from './components/Company';
 import Donors from './components/Donors';
 import Service from './components/Service';
 import TimeAddress from './components/TimeAddress';
-import { BackTop } from 'antd';
+import { FloatButton } from 'antd';
 import style from './index.module.scss';
 
 const Home = () => {
@@ -20,7 +20,7 @@ const Home = () => {
       <Company title='VIỆT NAM' />
       <Footer />
       <div className={style.backtop}>
-        <BackTop />
+        <FloatButton.BackTop />{' '}
       </div>
     </>
   );

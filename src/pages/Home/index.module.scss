@@ -1,7 +1,23 @@
 .backtop {
   :global {
-    .ant-back-top-content {
+    .ant-float-btn {
       background-color: #0c59db;
+      &:hover {
+        background-color: white;
+      }
+    }
+    .ant-float-btn-body {
+      background-color: #0c59db;
+      border: none;
+      svg {
+        color: white;
+      }
+      &:hover {
+        background-color: white;
+        svg {
+          color: #0c59db;
+        }
+      }
     }
   }
 }
