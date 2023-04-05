@@ -95,7 +95,9 @@ const TimeAddress = () => {
             </div>
           </Col>
         </Row>
-        <a href='/'>ĐĂNG KÝ THAM GIA</a>
+        <a className='linklogin' href='/'>
+          ĐĂNG KÝ THAM GIA
+        </a>
       </Container>
     </div>
   );
