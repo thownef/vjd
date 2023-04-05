@@ -17,7 +17,7 @@ const Home = () => {
       <Service />
       <Company title='NHẬT BẢN' />
       <Company title='VIỆT NAM' />
-      <Footer />
+      {/* <Footer /> */}
       <FloatButton.BackTop />
     </>
   );
