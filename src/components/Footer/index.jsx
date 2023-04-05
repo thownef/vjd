@@ -63,16 +63,16 @@ const Footer = () => {
           <Col span={10} className={style.footer__list}>
             <h5>連絡先情報</h5>
             <p>
-              <i class='fas fa-map-marker-alt mrr-10'></i>
+              <i className='fas fa-map-marker-alt mrr-10'></i>
               Room 22, House 8, Quang Trung City Software City, District 12,
               HCMC, Viet Nam
             </p>
             <p>
-              <i class='fas fa-phone mrr-10'></i>
+              <i className='fas fa-phone mrr-10'></i>
               (+84) 028 7303 8939
             </p>
             <p>
-              <i class='fas fa-envelope mrr-10'></i>
+              <i className='fas fa-envelope mrr-10'></i>
               contact@vj-partner.com
             </p>
           </Col>
