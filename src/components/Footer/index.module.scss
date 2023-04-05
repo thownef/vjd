@@ -1,8 +1,9 @@
 .container {
   background-image: url(https://vj-partner.com/assets/frontend/images/footer-bg.png) !important;
   background: #222935;
-  height: 500px;
   color: white;
+  padding: 20px 0 0 0;
+  height: auto;
 }
 
 .widget {
@@ -62,17 +63,46 @@
   ul {
     list-style: none;
     padding: 0 !important;
-    li a {
-      color: white;
-      position: relative;
-      &::after {
-        position: absolute;
-        content: '\f105';
-        left: 0;
-        top: -3px;
-        font-family: 'Font Awesome 5 Free';
-        font-weight: 900;
+    li {
+      margin-bottom: 10px;
+      a {
+        color: #a7a8b4;
+        position: relative;
+        padding-left: 20px;
+        transition: all 0.3s ease 0s;
+        font-size: 18px;
+        margin-bottom: 8px;
+        &:hover {
+          color: #0c59db;
+        }
+        &::after {
+          position: absolute;
+          content: '\f105';
+          left: 0;
+          top: 0;
+          font-size: 16px;
+          font-family: 'Font Awesome 5 Free';
+          font-weight: 900;
+        }
       }
     }
   }
+  p {
+    color: #a7a8b4;
+    margin: 0 0 20px;
+    line-height: 1.8em;
+    font-size: 1.1rem;
+    font-weight: 400;
+    i {
+      margin-right: 12px;
+    }
+  }
+}
+
+.footer__bottom {
+  background: #303743;
+  padding: 24px 0;
+  text-align: center;
+  color: #a7a8b4;
+  font-size: 18px;
 }

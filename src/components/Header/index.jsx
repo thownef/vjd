@@ -1,10 +1,11 @@
 import React from 'react';
 import banner from '../../assets/banner_platform.png';
+import style from './index.module.scss';
 
 const Header = () => {
   return (
-    <div style={{ width: '100%', marginBottom: '20px' }}>
-      <img style={{ width: '100%' }} src={banner} alt='banner' />
+    <div className={style.wrapper}>
+      <img src={banner} alt='banner' />
     </div>
   );
 };

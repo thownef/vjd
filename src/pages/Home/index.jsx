@@ -6,6 +6,7 @@ import Donors from './components/Donors';
 import Service from './components/Service';
 import TimeAddress from './components/TimeAddress';
 import { FloatButton } from 'antd';
+import style from './index.module.scss';
 
 const Home = () => {
   return (
@@ -17,8 +18,10 @@ const Home = () => {
       <Service />
       <Company title='NHẬT BẢN' />
       <Company title='VIỆT NAM' />
-      {/* <Footer /> */}
-      <FloatButton.BackTop />
+      <Footer />
+      <div className={style.backtop}>
+        <FloatButton.BackTop />
+      </div>
     </>
   );
 };

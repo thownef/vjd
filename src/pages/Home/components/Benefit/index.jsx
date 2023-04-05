@@ -11,7 +11,7 @@ const Benefit = () => {
         NHỮNG LỢI ÍCH KHI THAM GIA <span>BUSINESS MATCHING</span>
       </h3>
       <Row gutter={16}>
-        <Col className='gutter-row' span={8}>
+        <Col className='gutter-row' xs={24} lg={8}>
           <Card
             hoverable
             className={style['benefit__card--item']}
@@ -36,7 +36,7 @@ const Benefit = () => {
             </ReadMore>
           </Card>
         </Col>
-        <Col className='gutter-row' span={8}>
+        <Col className='gutter-row' xs={24} lg={8}>
           <Card
             hoverable
             className={style['benefit__card--item']}
@@ -62,7 +62,7 @@ const Benefit = () => {
             </ReadMore>
           </Card>
         </Col>
-        <Col className='gutter-row' span={8}>
+        <Col className='gutter-row' xs={24} lg={8}>
           <Card
             hoverable
             className={style['benefit__card--item']}

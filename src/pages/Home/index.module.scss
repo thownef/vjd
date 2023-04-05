@@ -1,0 +1,8 @@
+.backtop {
+  background-color: red !important;
+  :global {
+    .ant-float-btn-default.ant-float-btn-circle.ant-float-btn {
+      background-color: red !important;
+    }
+  }
+}
