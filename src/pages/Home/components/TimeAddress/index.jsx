@@ -5,7 +5,7 @@ import style from './index.module.scss';
 import useTimer from './hooks/useTimer';
 
 const TimeAddress = () => {
-  const { days, hours, minutes, seconds } = useTimer('2023-08-06T23:59:59');
+  const { days, hours, minutes, seconds } = useTimer('2023-06-08T23:59:59');
 
   return (
     <div className={style.wrapper}>
