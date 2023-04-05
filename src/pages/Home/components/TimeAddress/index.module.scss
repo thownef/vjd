@@ -7,11 +7,9 @@
 
 .timeAddress {
   &__container {
-    border-radius: 8px;
     background-color: white;
     height: 264px;
-    border-right: 1px solid #000;
-    margin-bottom: 30px;
+    overflow: hidden;
   }
   &__icon {
     display: flex;

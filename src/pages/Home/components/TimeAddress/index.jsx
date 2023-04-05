@@ -10,7 +10,13 @@ const TimeAddress = () => {
   return (
     <div className={style.wrapper}>
       <Container>
-        <Row>
+        <Row
+          style={{
+            marginBottom: '30px',
+            borderRadius: '8px',
+            overflow: 'hidden',
+          }}
+        >
           <Col span={8} className={style.timeAddress__container}>
             <Row>
               <Col span={5} className={style.timeAddress__icon}>
@@ -26,7 +32,14 @@ const TimeAddress = () => {
               </Col>
             </Row>
           </Col>
-          <Col span={8} className={style.timeAddress__container}>
+          <Col
+            span={8}
+            className={style.timeAddress__container}
+            style={{
+              borderRight: '2px solid #4e6e6f',
+              borderLeft: '2px solid #4e6e6f',
+            }}
+          >
             <Row>
               <Col span={5} className={style.timeAddress__icon}>
                 <img

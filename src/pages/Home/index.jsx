@@ -1,3 +1,4 @@
+import Footer from '../../components/Footer';
 import Header from '../../components/Header';
 import Benefit from './components/Benefit';
 import Company from './components/Company';
@@ -16,6 +17,7 @@ const Home = () => {
       <Service />
       <Company title='NHẬT BẢN' />
       <Company title='VIỆT NAM' />
+      {/* <Footer /> */}
       <FloatButton.BackTop />
     </>
   );
