@@ -29,7 +29,7 @@ const Footer = () => {
               </li>
             </ul>
           </Col>
-          <Col span={4} className={style.footer__list}>
+          <Col span={6} className={style.footer__list}>
             <h5>メニュー</h5>
             <ul>
               <li>
@@ -37,30 +37,30 @@ const Footer = () => {
               </li>
               <li>
                 <a href='#about'>企業理念</a>
-              </li>{' '}
+              </li>
               <li>
                 <a href='#service'>サービス</a>
-              </li>{' '}
+              </li>
               <li>
                 <a href='#team'>チーム</a>
-              </li>{' '}
+              </li>
               <li>
                 <a href='#contact'>お問い合わせ</a>
-              </li>{' '}
+              </li>
               <li>
                 <a href='https://v-recruit.jp/'>V-リクルート</a>
               </li>
             </ul>
           </Col>
-          <Col span={4} className={style.footer__list}>
+          {/* <Col span={4} className={style.footer__list}>
             <h5>ヘルプ</h5>
             <ul>
               <li>
                 <a href='https://v-recruit.jp/'>開発支援実績</a>
               </li>
             </ul>
-          </Col>
-          <Col span={6} className={style.footer__list}>
+          </Col> */}
+          <Col span={10} className={style.footer__list}>
             <h5>連絡先情報</h5>
             <p>
               <i class='fas fa-map-marker-alt mrr-10'></i>
