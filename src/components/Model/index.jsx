@@ -6,21 +6,15 @@ const Model = () => {
   return (
     <div className={style.member__container}>
       <Row>
-        <Col span={9} className={style.member__desc}>
+        <Col lg={9} md={24} className={style.member__desc}>
           <div className={style.member__image}>
             <img
               src='https://vijaba.com/uploads/img/members/logo/1647828997-1647397913-1647329875-vjp-removebg-preview.png'
               alt=''
             />
           </div>
-          {/* <h4>ヴォー・ドゥック・タン</h4>
-          <p>Phone: 0938.859.383</p>
-          <p>Email: thang-vo@vj-partner.com</p>
-          <hr />
-          <p>CODE: IB_THANG_IT HR</p>
-          <p>VIET JAPAN PARTNER</p> */}
         </Col>
-        <Col span={15} className={style.member__business}>
+        <Col lg={15} md={24} className={style.member__business}>
           <h4>BUSINESS</h4>
           <ul className={style.member__jobs}>
             <li className={style.member__jobs_item}>

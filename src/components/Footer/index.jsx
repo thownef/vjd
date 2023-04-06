@@ -8,7 +8,7 @@ const Footer = () => {
     <div className={style.container}>
       <Container>
         <Row gutter={24}>
-          <Col span={8} className={style.widget}>
+          <Col md={8} xs={24} className={style.widget}>
             <img
               src='https://vj-partner.com/uploads/img/general/1643360241-logopng.png'
               alt=''
@@ -29,7 +29,7 @@ const Footer = () => {
               </li>
             </ul>
           </Col>
-          <Col span={6} className={style.footer__list}>
+          <Col md={6} xs={24} className={style.footer__list}>
             <h5>メニュー</h5>
             <ul>
               <li>
@@ -52,7 +52,7 @@ const Footer = () => {
               </li>
             </ul>
           </Col>
-          {/* <Col span={4} className={style.footer__list}>
+          {/* <Col md={4} xs={24} className={style.footer__list}>
             <h5>ヘルプ</h5>
             <ul>
               <li>
@@ -60,7 +60,7 @@ const Footer = () => {
               </li>
             </ul>
           </Col> */}
-          <Col span={10} className={style.footer__list}>
+          <Col md={10} xs={24} className={style.footer__list}>
             <h5>連絡先情報</h5>
             <p>
               <i className='fas fa-map-marker-alt mrr-10'></i>

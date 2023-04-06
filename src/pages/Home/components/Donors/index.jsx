@@ -102,7 +102,7 @@ const Donors = () => {
         open={isModalOpen}
         onOk={handleOk}
         onCancel={handleCancel}
-        width={750}
+        // width={750}
         centered
       >
         <Model />

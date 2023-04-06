@@ -84,6 +84,22 @@ h1 {
     }
     .content__top {
       flex-direction: column;
+      :global {
+        .ant-col {
+          max-width: 100%;
+        }
+      }
+    }
+    .content__item {
+      font-size: 14px;
+    }
+  }
+
+  .customer {
+    font-size: 14px;
+    margin-top: 75px;
+    &__item {
+      font-size: 13px;
     }
   }
 
@@ -98,5 +114,15 @@ h1 {
   }
   .flag {
     width: 160%;
+  }
+}
+
+@media (max-width: 320px) {
+  .content__item {
+    font-size: 12px !important;
+  }
+
+  .customer {
+    margin-top: 95px;
   }
 }

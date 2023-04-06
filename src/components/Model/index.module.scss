@@ -1,6 +1,7 @@
 .member {
   &__container {
     position: relative;
+    width: 750px;
   }
   &__desc {
     display: flex;
@@ -113,4 +114,17 @@
   background-color: transparent;
   box-shadow: none;
   line-height: 20px;
+}
+
+@media (max-width: 768px) {
+  .member__container {
+    width: 500px;
+  }
+
+  .member__image {
+    width: 30%;
+  }
+}
+
+@media (max-width: 426px) {
 }
