@@ -3,7 +3,7 @@ import style from './index.module.scss';
 import { Col, Row } from 'antd';
 
 const Model = ({ data }) => {
-  const { address, desc, logo, phone, website } = { ...data };
+  const { address, desc, logo, phone, website } = data;
   return (
     <div className={style.member__container}>
       <Row>
