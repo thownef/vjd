@@ -1,6 +1,7 @@
 import { Col, Row } from 'antd';
 import Container from '../../../../components/Container';
 import style from './index.module.scss';
+import { Link } from 'react-router-dom';
 
 const Company = ({ title }) => {
   return (
@@ -12,14 +13,16 @@ const Company = ({ title }) => {
       </Row>
       <Row gutter={[16, 16]}>
         <Col md={12} xs={24}>
-          <div className={style.container}>
+          <div to='/profile' className={style.container}>
             <Row justify={'space-between'}>
               <Col>
-                <img
-                  className={style.banner}
-                  src='https://vj-partner.com/uploads/img/general/1638966072-logo-VJP-[306x75].png'
-                  alt=''
-                />
+                <Link to='/profile'>
+                  <img
+                    className={style.banner}
+                    src='https://vj-partner.com/uploads/img/general/1638966072-logo-VJP-[306x75].png'
+                    alt=''
+                  />
+                </Link>
               </Col>
               <Col className={style.category}>
                 <span>Category: Industry</span>

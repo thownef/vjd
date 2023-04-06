@@ -30,17 +30,17 @@
     }
   }
   &__image {
-    max-width: 200px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     overflow: hidden;
     box-shadow: 10px 10px 10px 0 #242424a1;
     background-color: white;
-    // display: flex;
-    // justify-content: center;
-    // margin-left: auto;
-    // margin-right: auto;
     img {
-      width: 100%;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: contain;
     }
   }
   &__business {
@@ -125,10 +125,6 @@
     width: 500px;
   }
 
-  .member__image {
-    width: 30%;
-  }
-
   .member__business {
     h4 {
       font-size: 20px;
@@ -162,6 +158,15 @@
 
   .member__desc {
     width: 100%;
+  }
+
+  .member__image {
+    width: 140px;
+    height: 140px;
+    img {
+      width: 140px;
+      height: 140px;
+    }
   }
 
   .member__business {

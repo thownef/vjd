@@ -4,10 +4,13 @@ import { Col, Modal, Row } from 'antd';
 import style from './index.module.scss';
 import './index.css';
 import Model from '../../../../components/Model';
+import { Company1 } from '../../../../mock/dummyData';
 
 const Donors = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const showModal = () => {
+  const [data, setData] = useState({});
+  const showModal = (item) => {
+    setData(item);
     setIsModalOpen(true);
   };
   const handleOk = () => {
@@ -25,87 +28,21 @@ const Donors = () => {
         </h1>
       </Row>
       <Row gutter={[32, 32]}>
-        <Col md={6} xs={12}>
-          <div className={style.donor__container}>
-            <img
-              onClick={showModal}
-              src='https://bm3.bnihcmc6.com/_next/image?url=%2Fdonor1.jpg&w=640&q=75'
-              alt=''
-            />
-          </div>
-        </Col>
-        <Col md={6} xs={12}>
-          <div className={style.donor__container}>
-            <img
-              onClick={showModal}
-              src='https://bm3.bnihcmc6.com/_next/image?url=%2Fvjp.jpg&w=640&q=75'
-              alt=''
-            />
-          </div>
-        </Col>
-        <Col md={6} xs={12}>
-          <div className={style.donor__container}>
-            <img
-              onClick={showModal}
-              src='https://bm3.bnihcmc6.com/_next/image?url=%2Fbachvuong.jpg&w=640&q=75'
-              alt=''
-            />
-          </div>
-        </Col>
-        <Col md={6} xs={12}>
-          <div className={style.donor__container}>
-            <img
-              onClick={showModal}
-              src='https://bm3.bnihcmc6.com/_next/image?url=%2Fmarico.png&w=640&q=75'
-              alt=''
-            />
-          </div>
-        </Col>
-        <Col md={6} xs={12}>
-          <div className={style.donor__container}>
-            <img
-              onClick={showModal}
-              src='https://bm3.bnihcmc6.com/_next/image?url=%2Ftupperware.jpeg&w=640&q=75'
-              alt=''
-            />
-          </div>
-        </Col>
-        <Col md={6} xs={12}>
-          <div className={style.donor__container}>
-            <img
-              onClick={showModal}
-              src='https://bm3.bnihcmc6.com/_next/image?url=%2FCA.jpg&w=640&q=75'
-              alt=''
-            />
-          </div>
-        </Col>
-        <Col md={6} xs={12}>
-          <div className={style.donor__container}>
-            <img
-              onClick={showModal}
-              src='https://bm3.bnihcmc6.com/_next/image?url=%2F1.NK%20A%20AU.jpg&w=640&q=75'
-              alt=''
-            />
-          </div>
-        </Col>
-        <Col md={6} xs={12}>
-          <div className={style.donor__container}>
-            <img
-              onClick={showModal}
-              src='https://bm3.bnihcmc6.com/_next/image?url=%2F2.KHAM%20PK%20PHUC%20THIEN.png&w=640&q=75'
-              alt=''
-            />
-          </div>
-        </Col>
+        {Company1.map((item) => (
+          <Col md={6} xs={12} key={item.name}>
+            <div className={style.donor__container}>
+              <img onClick={() => showModal(item)} src={item.logo} alt='' />
+            </div>
+          </Col>
+        ))}
       </Row>
       <Modal
         open={isModalOpen}
         onOk={handleOk}
         onCancel={handleCancel}
-        // width={750}
         centered
       >
-        <Model />
+        <Model data={data} />
       </Modal>
     </Container>
   );

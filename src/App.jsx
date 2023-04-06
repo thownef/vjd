@@ -17,10 +17,8 @@ function App() {
         <Routes>
           <Route exact path={ROUTES.HOME} element={<Home />} />
           <Route exact path={ROUTES.PROFILE} element={<Profile />} />
-          {/* <Route path='*' element={<NotFoundContainer />} /> */}
         </Routes>
       </div>
-      {/* <Footer /> */}
     </Router>
   );
 }
