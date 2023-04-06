@@ -28,3 +28,10 @@ h1 {
 .ant-modal-content {
   padding: 0 !important;
 }
+
+@media (max-width: 426px) {
+  .donor__title {
+    font-size: 18px;
+    text-align: center;
+  }
+}

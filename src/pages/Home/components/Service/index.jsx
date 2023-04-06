@@ -5,12 +5,12 @@ import style from './index.module.scss';
 const Service = () => {
   return (
     <Container>
+      <Row justify={'center'}>
+        <h1 className={style.service__title}>CÁC NHÓM DOANH NGHIỆP THAM DỰ</h1>
+      </Row>
       <div className={style.wrapper}>
-        <Row justify={'center'}>
-          <h1>CÁC NHÓM DOANH NGHIỆP THAM DỰ</h1>
-        </Row>
         <Row gutter={[32, 32]}>
-          <Col lg={6} md={12}>
+          <Col lg={6} md={12} xs={24}>
             <div className={style.service__box}>
               <div className={style.icon}>
                 <span className='test'>
@@ -25,7 +25,7 @@ const Service = () => {
               </div>
             </div>
           </Col>
-          <Col lg={6} md={12}>
+          <Col lg={6} md={12} xs={24}>
             <div className={style.service__box}>
               <div className={style.icon}>
                 <span className='test'>
@@ -40,7 +40,7 @@ const Service = () => {
               </div>
             </div>
           </Col>
-          <Col lg={6} md={12}>
+          <Col lg={6} md={12} xs={24}>
             <div className={style.service__box}>
               <div className={style.icon}>
                 <span className='test'>
@@ -55,7 +55,7 @@ const Service = () => {
               </div>
             </div>
           </Col>
-          <Col lg={6} md={12}>
+          <Col lg={6} md={12} xs={24}>
             <div className={style.service__box}>
               <div className={style.icon}>
                 <span className='test'>
@@ -70,7 +70,7 @@ const Service = () => {
               </div>
             </div>
           </Col>
-          <Col lg={6} md={12}>
+          <Col lg={6} md={12} xs={24}>
             <div className={style.service__box}>
               <div className={style.icon}>
                 <span className='test'>
@@ -85,7 +85,7 @@ const Service = () => {
               </div>
             </div>
           </Col>
-          <Col lg={6} md={12}>
+          <Col lg={6} md={12} xs={24}>
             <div className={style.service__box}>
               <div className={style.icon}>
                 <span className='test'>
@@ -100,7 +100,7 @@ const Service = () => {
               </div>
             </div>
           </Col>
-          <Col lg={6} md={12}>
+          <Col lg={6} md={12} xs={24}>
             <div className={style.service__box}>
               <div className={style.icon}>
                 <span className='test'>
@@ -115,7 +115,7 @@ const Service = () => {
               </div>
             </div>
           </Col>
-          <Col lg={6} md={12}>
+          <Col lg={6} md={12} xs={24}>
             <div className={style.service__box}>
               <div className={style.icon}>
                 <span className='test'>

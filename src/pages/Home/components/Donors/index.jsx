@@ -19,13 +19,13 @@ const Donors = () => {
   return (
     <Container>
       <Row justify={'center'} style={{ marginTop: '10px' }}>
-        <h1>
+        <h1 className={style.donor__title}>
           NHÀ TÀI TRỢ
           <span>BUSINESS MATCHING 2023</span>
         </h1>
       </Row>
       <Row gutter={[32, 32]}>
-        <Col span={6}>
+        <Col md={6} xs={12}>
           <div className={style.donor__container}>
             <img
               onClick={showModal}
@@ -34,7 +34,7 @@ const Donors = () => {
             />
           </div>
         </Col>
-        <Col span={6}>
+        <Col md={6} xs={12}>
           <div className={style.donor__container}>
             <img
               onClick={showModal}
@@ -43,7 +43,7 @@ const Donors = () => {
             />
           </div>
         </Col>
-        <Col span={6}>
+        <Col md={6} xs={12}>
           <div className={style.donor__container}>
             <img
               onClick={showModal}
@@ -52,7 +52,7 @@ const Donors = () => {
             />
           </div>
         </Col>
-        <Col span={6}>
+        <Col md={6} xs={12}>
           <div className={style.donor__container}>
             <img
               onClick={showModal}
@@ -61,7 +61,7 @@ const Donors = () => {
             />
           </div>
         </Col>
-        <Col span={6}>
+        <Col md={6} xs={12}>
           <div className={style.donor__container}>
             <img
               onClick={showModal}
@@ -70,7 +70,7 @@ const Donors = () => {
             />
           </div>
         </Col>
-        <Col span={6}>
+        <Col md={6} xs={12}>
           <div className={style.donor__container}>
             <img
               onClick={showModal}
@@ -79,7 +79,7 @@ const Donors = () => {
             />
           </div>
         </Col>
-        <Col span={6}>
+        <Col md={6} xs={12}>
           <div className={style.donor__container}>
             <img
               onClick={showModal}
@@ -88,7 +88,7 @@ const Donors = () => {
             />
           </div>
         </Col>
-        <Col span={6}>
+        <Col md={6} xs={12}>
           <div className={style.donor__container}>
             <img
               onClick={showModal}

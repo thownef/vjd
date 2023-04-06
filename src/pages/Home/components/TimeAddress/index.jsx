@@ -17,7 +17,7 @@ const TimeAddress = () => {
             overflow: 'hidden',
           }}
         >
-          <Col span={8} className={style.timeAddress__container}>
+          <Col md={8} sm={24} className={style.timeAddress__container}>
             <Row>
               <Col span={5} className={style.timeAddress__icon}>
                 <img
@@ -33,7 +33,8 @@ const TimeAddress = () => {
             </Row>
           </Col>
           <Col
-            span={8}
+            md={8}
+            sm={24}
             className={style.timeAddress__container}
             style={{
               borderRight: '2px solid #4e6e6f',
@@ -53,7 +54,7 @@ const TimeAddress = () => {
               </Col>
             </Row>
           </Col>
-          <Col span={8} className={style.timeAddress__container}>
+          <Col md={8} sm={24} className={style.timeAddress__container}>
             <Row>
               <Col span={5} className={style.timeAddress__icon}>
                 <img
@@ -70,25 +71,25 @@ const TimeAddress = () => {
           </Col>
         </Row>
         <Row gutter={24}>
-          <Col className='gutter-row' span={6}>
+          <Col className='gutter-row' md={6} xs={12}>
             <div className={style.timeAddress__countdown}>
               <h1>{days}</h1>
               <span>Ngày</span>
             </div>
           </Col>
-          <Col className='gutter-row' span={6}>
+          <Col className='gutter-row' md={6} xs={12}>
             <div className={style.timeAddress__countdown}>
               <h1>{hours}</h1>
               <span>Giờ</span>
             </div>
           </Col>
-          <Col className='gutter-row' span={6}>
+          <Col className='gutter-row' md={6} xs={12}>
             <div className={style.timeAddress__countdown}>
               <h1>{minutes}</h1>
               <span>Phút</span>
             </div>
           </Col>
-          <Col className='gutter-row' span={6}>
+          <Col className='gutter-row' md={6} xs={12}>
             <div className={style.timeAddress__countdown}>
               <h1>{seconds}</h1>
               <span>Giây</span>

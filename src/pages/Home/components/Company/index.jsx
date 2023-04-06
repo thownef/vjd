@@ -6,12 +6,12 @@ const Company = ({ title }) => {
   return (
     <Container>
       <Row justify={'center'}>
-        <h1>
+        <h1 className={style.company__title}>
           CÁC CÔNG TY TIÊU BIỂU PHÍA <span>{title}</span>
         </h1>
       </Row>
-      <Row gutter={16}>
-        <Col span={12}>
+      <Row gutter={[16, 16]}>
+        <Col md={12} xs={24}>
           <div className={style.container}>
             <Row justify={'space-between'}>
               <Col>
@@ -33,9 +33,9 @@ const Company = ({ title }) => {
               </Col>
             </Row>
             <Row className={style.content}>
-              <Col span={14}>
+              <Col span={14} className={style.content__container}>
                 <h3 className={style.title}>VIET JAPAN PARTNER</h3>
-                <Row>
+                <Row className={style.content__top}>
                   <Col span={12}>
                     <Row align={'middle'} className={style.content__item}>
                       <span>Estalishment: </span>
@@ -76,8 +76,8 @@ const Company = ({ title }) => {
                   />
                 </Row>
               </Col>
-              <Col span={10}>
-                <div>Needs</div>
+              <Col span={10} className={style.customer__container}>
+                <span>Needs</span>
                 <div className={style.customer}>
                   <div>Find customer</div>
                   <div className={style.customer__item}>Find customer</div>
@@ -89,7 +89,7 @@ const Company = ({ title }) => {
             </Row>
           </div>
         </Col>
-        <Col span={12}>
+        <Col md={12} xs={24}>
           <div className={style.container}>
             <Row justify={'space-between'}>
               <Col>

@@ -5,9 +5,10 @@ import Company from './components/Company';
 import Donors from './components/Donors';
 import Service from './components/Service';
 import TimeAddress from './components/TimeAddress';
-import { BackTop, FloatButton } from 'antd';
+import { BackTop } from 'antd';
 import style from './index.module.scss';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
+import { COUNTRY } from '../../constant/constant';
 
 const Home = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -24,8 +25,8 @@ const Home = () => {
       <TimeAddress />
       <Donors />
       <Service />
-      <Company title='NHẬT BẢN' />
-      <Company title='VIỆT NAM' />
+      <Company title={COUNTRY.VN} />
+      <Company title={COUNTRY.JP} />
       <Footer />
       <div className={isScrolled ? style.backtop : style.hidden}>
         <BackTop />

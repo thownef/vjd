@@ -62,3 +62,41 @@ h1 {
     font-size: 14px;
   }
 }
+
+@media (max-width: 426px) {
+  .company__title {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .category {
+    margin: 7px 0 0 28px;
+  }
+
+  .content__container {
+    .title {
+      margin-left: 0;
+      font-size: 18px;
+    }
+    .content__top {
+      flex-direction: column;
+    }
+  }
+
+  .customer__container {
+    span {
+      display: none;
+    }
+  }
+
+  .addresss {
+    width: 160%;
+  }
+  .flag {
+    width: 160%;
+  }
+}

@@ -73,3 +73,29 @@
     color: #1890ff;
   }
 }
+
+@media (max-width: 426px) {
+  .timeAddress__container {
+    border: none !important;
+    margin-bottom: 3px;
+    height: auto;
+  }
+
+  .timeAddress__info {
+    padding: 14px 20px;
+    h3 {
+      font-size: 18px;
+    }
+    p {
+      font-size: 16px;
+    }
+  }
+}
+
+@media (max-width: 376px) {
+  .timeAddress__info {
+    h3 {
+      margin: 12px 0;
+    }
+  }
+}

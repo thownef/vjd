@@ -1,3 +1,5 @@
+export const COUNTRY = {VN:'VIỆT NAM', JP: 'NHẬT BẢN'}
+
 export const LANGUAGES = ['jp', 'us']
 
 export const UNKNOWN_ERROR = 'Something went wrong. Please try again later!'
