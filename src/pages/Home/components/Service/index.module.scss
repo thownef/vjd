@@ -50,6 +50,21 @@
   line-height: 2.4em;
 }
 
+@media (max-width: 1024px) {
+  .service__box {
+    min-height: 214px;
+  }
+}
+
+@media (max-width: 768px) {
+  .service__box {
+    padding: 20px;
+  }
+  .service__content {
+    font-size: 12px;
+  }
+}
+
 @media (max-width: 426px) {
   .wrapper {
     padding: 0 8px;

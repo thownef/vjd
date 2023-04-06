@@ -63,25 +63,47 @@ h1 {
   }
 }
 
+@media (max-width: 768px) {
+  .logo {
+    display: none;
+  }
+  .customer__container {
+    span {
+      display: none;
+    }
+  }
+  .addresss {
+    width: 160%;
+  }
+  .flag {
+    width: 160%;
+  }
+  .category {
+    margin: 7px 0 0 28px;
+  }
+  .content__container {
+    .title {
+      margin-left: 0;
+      font-size: 18px;
+    }
+    .content__top {
+      flex-direction: column;
+      :global {
+        .ant-col {
+          max-width: 100%;
+        }
+      }
+    }
+  }
+}
+
 @media (max-width: 426px) {
   .company__title {
     font-size: 18px;
     text-align: center;
   }
 
-  .logo {
-    display: none;
-  }
-
-  .category {
-    margin: 7px 0 0 28px;
-  }
-
   .content__container {
-    .title {
-      margin-left: 0;
-      font-size: 18px;
-    }
     .content__top {
       flex-direction: column;
       :global {
@@ -101,19 +123,6 @@ h1 {
     &__item {
       font-size: 13px;
     }
-  }
-
-  .customer__container {
-    span {
-      display: none;
-    }
-  }
-
-  .addresss {
-    width: 160%;
-  }
-  .flag {
-    width: 160%;
   }
 }
 

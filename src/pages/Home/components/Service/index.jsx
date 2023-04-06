@@ -10,7 +10,7 @@ const Service = () => {
       </Row>
       <div className={style.wrapper}>
         <Row gutter={[32, 32]}>
-          <Col lg={6} md={12} xs={24}>
+          <Col xl={6} lg={12} md={12} xs={24}>
             <div className={style.service__box}>
               <div className={style.icon}>
                 <span className='test'>
@@ -25,7 +25,7 @@ const Service = () => {
               </div>
             </div>
           </Col>
-          <Col lg={6} md={12} xs={24}>
+          <Col xl={6} lg={12} md={12} xs={24}>
             <div className={style.service__box}>
               <div className={style.icon}>
                 <span className='test'>
@@ -40,7 +40,7 @@ const Service = () => {
               </div>
             </div>
           </Col>
-          <Col lg={6} md={12} xs={24}>
+          <Col xl={6} lg={12} md={12} xs={24}>
             <div className={style.service__box}>
               <div className={style.icon}>
                 <span className='test'>
@@ -55,7 +55,7 @@ const Service = () => {
               </div>
             </div>
           </Col>
-          <Col lg={6} md={12} xs={24}>
+          <Col xl={6} lg={12} md={12} xs={24}>
             <div className={style.service__box}>
               <div className={style.icon}>
                 <span className='test'>
@@ -70,7 +70,7 @@ const Service = () => {
               </div>
             </div>
           </Col>
-          <Col lg={6} md={12} xs={24}>
+          <Col xl={6} lg={12} md={12} xs={24}>
             <div className={style.service__box}>
               <div className={style.icon}>
                 <span className='test'>
@@ -85,7 +85,7 @@ const Service = () => {
               </div>
             </div>
           </Col>
-          <Col lg={6} md={12} xs={24}>
+          <Col xl={6} lg={12} md={12} xs={24}>
             <div className={style.service__box}>
               <div className={style.icon}>
                 <span className='test'>
@@ -100,7 +100,7 @@ const Service = () => {
               </div>
             </div>
           </Col>
-          <Col lg={6} md={12} xs={24}>
+          <Col xl={6} lg={12} md={12} xs={24}>
             <div className={style.service__box}>
               <div className={style.icon}>
                 <span className='test'>
@@ -115,7 +115,7 @@ const Service = () => {
               </div>
             </div>
           </Col>
-          <Col lg={6} md={12} xs={24}>
+          <Col xl={6} lg={12} md={12} xs={24}>
             <div className={style.service__box}>
               <div className={style.icon}>
                 <span className='test'>
