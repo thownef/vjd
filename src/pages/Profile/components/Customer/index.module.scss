@@ -6,10 +6,15 @@
       visibility: visible;
     }
   }
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo {
-  width: 180px;
+  width: 80%;
+  height: auto;
+  object-fit: cover;
 }
 
 .tooltiptext {

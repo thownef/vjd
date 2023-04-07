@@ -65,5 +65,8 @@
   background-color: rgb(13, 91, 216);
   cursor: pointer;
   border: 0;
-  border-radius: 3px;
+  border-radius: 4px;
+  &:hover {
+    background-color: rgb(0, 0, 0);
+  }
 }

@@ -9,6 +9,8 @@ import Container from '../../components/Container';
 import Introduce from './components/Introduce';
 
 const Profile = () => {
+  const disabled = true;
+
   return (
     <>
       <div className={style.container}>
@@ -100,54 +102,54 @@ const Profile = () => {
         <Row justify={'center'} className={style.checkbox}>
           <span>Slot 1</span>
           <span style={{ margin: '0 10px' }}>
-            <Checkbox />
+            <Checkbox disabled={disabled} />
           </span>
           <span>0-15</span>
         </Row>
         <Row justify={'center'} className={style.checkbox}>
-          <span>Slot 1</span>
+          <span>Slot 2</span>
           <span style={{ margin: '0 10px' }}>
             <Checkbox />
           </span>
           <span>0-15</span>
         </Row>
         <Row justify={'center'} className={style.checkbox}>
-          <span>Slot 1</span>
+          <span>Slot 3</span>
           <span style={{ margin: '0 10px' }}>
             <Checkbox />
           </span>
           <span>0-15</span>
         </Row>
         <Row justify={'center'} className={style.checkbox}>
-          <span>Slot 1</span>
+          <span>Slot 4</span>
           <span style={{ margin: '0 10px' }}>
             <Checkbox />
           </span>
           <span>0-15</span>
         </Row>
         <Row justify={'center'} className={style.checkbox}>
-          <span>Slot 1</span>
+          <span>Slot 5</span>
           <span style={{ margin: '0 10px' }}>
             <Checkbox />
           </span>
           <span>0-15</span>
         </Row>
         <Row justify={'center'} className={style.checkbox}>
-          <span>Slot 1</span>
+          <span>Slot 6</span>
           <span style={{ margin: '0 10px' }}>
             <Checkbox />
           </span>
           <span>0-15</span>
         </Row>
         <Row justify={'center'} className={style.checkbox}>
-          <span>Slot 1</span>
+          <span>Slot 7</span>
           <span style={{ margin: '0 10px' }}>
             <Checkbox />
           </span>
           <span>0-15</span>
         </Row>
         <Row justify={'center'} className={style.checkbox}>
-          <span>Slot 1</span>
+          <span>Slot 8</span>
           <span style={{ margin: '0 10px' }}>
             <Checkbox />
           </span>

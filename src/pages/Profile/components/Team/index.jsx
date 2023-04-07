@@ -9,7 +9,7 @@ const Team = () => {
         <h1>NHÂN SỰ CHỦ CHỐT</h1>
       </Row>
       <Row justify={'center'}>
-        <Col span={8} className={style.container}>
+        <Col span={6} className={style.container}>
           <div className={style.box}>
             <img
               src='https://vj-digital.com/uploads/img/teams/1646971511-thang.jpg'
@@ -23,7 +23,7 @@ const Team = () => {
             </div>
           </div>
         </Col>
-        <Col span={8} className={style.container}>
+        <Col span={6} className={style.container}>
           <div className={style.box}>
             <img
               src='https://vj-digital.com/uploads/img/teams/1647074520-Thi%E1%BA%BFt%20k%E1%BA%BF%20kh%C3%B4ng%20t%C3%AAn.jpg'
@@ -37,7 +37,7 @@ const Team = () => {
             </div>
           </div>
         </Col>
-        <Col span={8} className={style.container}>
+        <Col span={6} className={style.container}>
           <div className={style.box}>
             <img
               src='https://vj-digital.com/uploads/img/teams/1659949198-dang-vo-phat-tai.png'
