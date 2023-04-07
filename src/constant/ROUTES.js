@@ -1,8 +1,7 @@
 export const ROUTES = {
   HOME: '/',
   PROFILE: '/profile',
-  CARS: '/cars',
-  CAR: '/car/:id/',
+  LOGIN: '/login',
   CAR_ROOT: '/car',
   SERVICE: '/service',
   CONTACT: '/contact',
@@ -10,4 +9,4 @@ export const ROUTES = {
   FILLED: '/filled',
   CONFIRM: '/confirm',
   SUCCESS: '/success/:id',
-}
+};
