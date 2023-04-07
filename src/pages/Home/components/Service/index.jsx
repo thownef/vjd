@@ -39,7 +39,7 @@ const Service = () => {
             <div className={style.service__box}>
               <div className={style.icon}>
                 <span>
-                  <i class='fab fa-dev'></i>
+                  <i className='fab fa-dev'></i>
                 </span>
               </div>
               <div className={style.service__content}>

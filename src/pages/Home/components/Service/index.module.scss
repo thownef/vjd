@@ -56,6 +56,12 @@
   }
 }
 
+@media (max-width: 820px) {
+  .para {
+    font-size: 13px;
+  }
+}
+
 @media (max-width: 768px) {
   .service__box {
     padding: 20px;
