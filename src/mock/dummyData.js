@@ -1,4 +1,4 @@
-export const Company1 = [
+export const COMPANY = [
   {
     name: 'name1',
     logo: 'https://bm3.bnihcmc6.com/_next/image?url=%2Fdonor1.jpg&w=640&q=75',
@@ -72,3 +72,5 @@ export const Company1 = [
     website: 'http://vijpworks.com',
   },
 ];
+
+export const PROFILE_COMPANY = [];

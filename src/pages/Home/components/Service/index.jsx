@@ -1,6 +1,16 @@
 import { Col, Row } from 'antd';
 import Container from '../../../../components/Container';
 import style from './index.module.scss';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faBookOpen,
+  faBuilding,
+  faIndustry,
+  faPlaneDeparture,
+  faScissors,
+  faShirt,
+  faUser,
+} from '@fortawesome/free-solid-svg-icons';
 
 const Service = () => {
   return (
@@ -13,8 +23,8 @@ const Service = () => {
           <Col xl={6} lg={12} md={12} xs={24}>
             <div className={style.service__box}>
               <div className={style.icon}>
-                <span className='test'>
-                  <i className='fas fa-building'></i>
+                <span>
+                  <FontAwesomeIcon icon={faBuilding} />
                 </span>
               </div>
               <div className={style.service__content}>
@@ -28,8 +38,8 @@ const Service = () => {
           <Col xl={6} lg={12} md={12} xs={24}>
             <div className={style.service__box}>
               <div className={style.icon}>
-                <span className='test'>
-                  <i className='fab fa-dev'></i>
+                <span>
+                  <i class='fab fa-dev'></i>
                 </span>
               </div>
               <div className={style.service__content}>
@@ -43,8 +53,8 @@ const Service = () => {
           <Col xl={6} lg={12} md={12} xs={24}>
             <div className={style.service__box}>
               <div className={style.icon}>
-                <span className='test'>
-                  <i className='fas fa-user'></i>
+                <span>
+                  <FontAwesomeIcon icon={faUser} />
                 </span>
               </div>
               <div className={style.service__content}>
@@ -58,8 +68,8 @@ const Service = () => {
           <Col xl={6} lg={12} md={12} xs={24}>
             <div className={style.service__box}>
               <div className={style.icon}>
-                <span className='test'>
-                  <i className='fas fa-book-open'></i>
+                <span>
+                  <FontAwesomeIcon icon={faBookOpen} />
                 </span>
               </div>
               <div className={style.service__content}>
@@ -73,8 +83,8 @@ const Service = () => {
           <Col xl={6} lg={12} md={12} xs={24}>
             <div className={style.service__box}>
               <div className={style.icon}>
-                <span className='test'>
-                  <i className='fas fa-plane-departure'></i>
+                <span>
+                  <FontAwesomeIcon icon={faPlaneDeparture} />
                 </span>
               </div>
               <div className={style.service__content}>
@@ -88,8 +98,8 @@ const Service = () => {
           <Col xl={6} lg={12} md={12} xs={24}>
             <div className={style.service__box}>
               <div className={style.icon}>
-                <span className='test'>
-                  <i className='fas fa-cut'></i>
+                <span>
+                  <FontAwesomeIcon icon={faScissors} />
                 </span>
               </div>
               <div className={style.service__content}>
@@ -103,8 +113,8 @@ const Service = () => {
           <Col xl={6} lg={12} md={12} xs={24}>
             <div className={style.service__box}>
               <div className={style.icon}>
-                <span className='test'>
-                  <i className='fas fa-tshirt'></i>
+                <span>
+                  <FontAwesomeIcon icon={faShirt} />
                 </span>
               </div>
               <div className={style.service__content}>
@@ -118,8 +128,8 @@ const Service = () => {
           <Col xl={6} lg={12} md={12} xs={24}>
             <div className={style.service__box}>
               <div className={style.icon}>
-                <span className='test'>
-                  <i className='fas fa-industry'></i>
+                <span>
+                  <FontAwesomeIcon icon={faIndustry} />
                 </span>
               </div>
               <div className={style.service__content}>
